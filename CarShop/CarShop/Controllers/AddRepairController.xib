@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddRepairController" customModule="CarShop" customModuleProvider="target">
+            <connections>
+                <outlet property="dateTextField" destination="3tx-Yy-zGT" id="ZOe-tU-3Sf"/>
+                <outlet property="hoursWorkTextField" destination="NJY-8p-cg2" id="8Qo-bf-cU4"/>
+                <outlet property="pricePerHourTextField" destination="hJy-JK-yZU" id="FZf-TK-zBr"/>
+                <outlet property="repairTypeTextField" destination="zJ8-JF-l9m" id="iA0-Ad-BDb"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date &amp; Time:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lj4-Wa-ZMK">
+                    <rect key="frame" x="32" y="95" width="326" height="30"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3tx-Yy-zGT">
+                    <rect key="frame" x="32" y="133" width="326" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Repair Type:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tBy-NU-ASr">
+                    <rect key="frame" x="32" y="191" width="326" height="30"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zJ8-JF-l9m">
+                    <rect key="frame" x="32" y="229" width="326" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hours Work:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45h-fl-5ZT">
+                    <rect key="frame" x="32" y="287" width="326" height="30"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NJY-8p-cg2">
+                    <rect key="frame" x="32" y="325" width="326" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price Per Hour:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j3e-CR-f1d">
+                    <rect key="frame" x="32" y="383" width="326" height="30"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hJy-JK-yZU">
+                    <rect key="frame" x="32" y="421" width="326" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ibk-ES-Yff">
+                    <rect key="frame" x="141.33333333333334" y="551" width="107.33333333333334" height="35"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Add Repair"/>
+                    <connections>
+                        <action selector="addRepair:" destination="-1" eventType="touchUpInside" id="0xa-Ek-VZT"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="NJY-8p-cg2" firstAttribute="top" secondItem="45h-fl-5ZT" secondAttribute="bottom" constant="8" id="08p-6c-bLj"/>
+                <constraint firstItem="45h-fl-5ZT" firstAttribute="leading" secondItem="zJ8-JF-l9m" secondAttribute="leading" id="0RH-Ha-6V7"/>
+                <constraint firstItem="45h-fl-5ZT" firstAttribute="trailing" secondItem="zJ8-JF-l9m" secondAttribute="trailing" id="1k6-g6-RVR"/>
+                <constraint firstItem="Lj4-Wa-ZMK" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="32" id="3AE-gg-Rk0"/>
+                <constraint firstItem="3tx-Yy-zGT" firstAttribute="leading" secondItem="Lj4-Wa-ZMK" secondAttribute="leading" id="49E-xo-ezk"/>
+                <constraint firstItem="j3e-CR-f1d" firstAttribute="trailing" secondItem="NJY-8p-cg2" secondAttribute="trailing" id="4zA-Wt-uK6"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Lj4-Wa-ZMK" secondAttribute="trailing" constant="32" id="5jH-ve-DNX"/>
+                <constraint firstItem="hJy-JK-yZU" firstAttribute="trailing" secondItem="j3e-CR-f1d" secondAttribute="trailing" id="DZE-QA-P14"/>
+                <constraint firstItem="tBy-NU-ASr" firstAttribute="trailing" secondItem="3tx-Yy-zGT" secondAttribute="trailing" id="FVT-4V-gkB"/>
+                <constraint firstItem="45h-fl-5ZT" firstAttribute="top" secondItem="zJ8-JF-l9m" secondAttribute="bottom" constant="24" id="Jre-tO-mU6"/>
+                <constraint firstItem="j3e-CR-f1d" firstAttribute="top" secondItem="NJY-8p-cg2" secondAttribute="bottom" constant="24" id="LI1-8P-Tha"/>
+                <constraint firstItem="ibk-ES-Yff" firstAttribute="top" secondItem="hJy-JK-yZU" secondAttribute="bottom" constant="96" id="Li7-Iu-oUh"/>
+                <constraint firstItem="ibk-ES-Yff" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="VgU-YX-29Y"/>
+                <constraint firstItem="j3e-CR-f1d" firstAttribute="leading" secondItem="NJY-8p-cg2" secondAttribute="leading" id="Vwb-Xf-guU"/>
+                <constraint firstItem="tBy-NU-ASr" firstAttribute="leading" secondItem="3tx-Yy-zGT" secondAttribute="leading" id="Zcl-ff-Rl9"/>
+                <constraint firstItem="tBy-NU-ASr" firstAttribute="top" secondItem="3tx-Yy-zGT" secondAttribute="bottom" constant="24" id="b40-RJ-1mo"/>
+                <constraint firstItem="3tx-Yy-zGT" firstAttribute="trailing" secondItem="Lj4-Wa-ZMK" secondAttribute="trailing" id="bBJ-c0-U8U"/>
+                <constraint firstItem="Lj4-Wa-ZMK" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="48" id="cKu-Pt-ahY"/>
+                <constraint firstItem="zJ8-JF-l9m" firstAttribute="leading" secondItem="tBy-NU-ASr" secondAttribute="leading" id="czg-uL-bFz"/>
+                <constraint firstItem="zJ8-JF-l9m" firstAttribute="top" secondItem="tBy-NU-ASr" secondAttribute="bottom" constant="8" id="kQE-vj-YeS"/>
+                <constraint firstItem="NJY-8p-cg2" firstAttribute="trailing" secondItem="45h-fl-5ZT" secondAttribute="trailing" id="kuW-hh-3qu"/>
+                <constraint firstItem="3tx-Yy-zGT" firstAttribute="top" secondItem="Lj4-Wa-ZMK" secondAttribute="bottom" constant="8" id="qNJ-Ux-H0Q"/>
+                <constraint firstItem="hJy-JK-yZU" firstAttribute="top" secondItem="j3e-CR-f1d" secondAttribute="bottom" constant="8" id="tjP-dL-RG0"/>
+                <constraint firstItem="NJY-8p-cg2" firstAttribute="leading" secondItem="45h-fl-5ZT" secondAttribute="leading" id="ttQ-vK-pmi"/>
+                <constraint firstItem="hJy-JK-yZU" firstAttribute="leading" secondItem="j3e-CR-f1d" secondAttribute="leading" id="wXg-TS-Ibj"/>
+                <constraint firstItem="zJ8-JF-l9m" firstAttribute="trailing" secondItem="tBy-NU-ASr" secondAttribute="trailing" id="zVT-i3-ena"/>
+            </constraints>
+            <point key="canvasLocation" x="136.92307692307691" y="20.616113744075829"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
